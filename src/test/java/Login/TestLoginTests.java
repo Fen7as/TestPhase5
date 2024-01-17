@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class TestLogin extends BaseTests {
+public class TestLoginTests extends BaseTests {
 
 
     @AfterMethod
@@ -21,6 +21,7 @@ public class TestLogin extends BaseTests {
 
     @Test (priority = 1)
     public void testSuccess(){
+
         LoginPage loginPage = homePage.clickOnFormAuthenticationLink();
         loginPage.insertUsername("tomsmith");
         loginPage.insertPassword("SuperSecretPassword!");
@@ -31,6 +32,7 @@ public class TestLogin extends BaseTests {
 
     @Test (priority = 2)
     public void testInvalidUsername(){
+
         LoginPage loginPage = homePage.clickOnFormAuthenticationLink();
         loginPage.insertUsername("hh");
         loginPage.insertPassword("SuperSecretPassword!");
@@ -41,6 +43,7 @@ public class TestLogin extends BaseTests {
 
     @Test (priority = 3)
     public void testInvalidPassword(){
+
         LoginPage loginPage = homePage.clickOnFormAuthenticationLink();
         loginPage.insertUsername("hh");
         loginPage.insertPassword("SuperSecretPassword!");
