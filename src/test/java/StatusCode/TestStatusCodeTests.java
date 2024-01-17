@@ -2,14 +2,11 @@ package StatusCode;
 
 import Pages.*;
 import base.BaseTests;
-import org.openqa.selenium.By;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertTrue;
 
-public class TestStatusCode extends BaseTests {
+public class TestStatusCodeTests extends BaseTests {
 
 
 

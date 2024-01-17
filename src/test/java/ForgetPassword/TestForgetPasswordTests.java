@@ -2,12 +2,11 @@ package ForgetPassword;
 
 import Pages.ForgetPasswordPage;
 import base.BaseTests;
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertTrue;
 
-public class TestForgetPassword extends BaseTests {
+public class TestForgetPasswordTests extends BaseTests {
 
     @Test
     public void forgetPasswordValidation(){

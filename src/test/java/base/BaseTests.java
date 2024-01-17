@@ -9,12 +9,12 @@ import org.testng.annotations.*;
 
 public class BaseTests {
 
-    protected WebDriver driver;
+    protected static WebDriver driver;
     protected HomePage homePage;
 
 
 
-    @BeforeClass
+    @BeforeTest
     public void setUp(){
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -32,7 +32,7 @@ public class BaseTests {
 
 
 
-    @AfterClass
+    @AfterTest
         public void Quit(){
         driver.quit();
 
