@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class CheckBoxesPage {
-    WebDriver driver;
+    static WebDriver driver;
     public CheckBoxesPage(WebDriver driver) {
         this.driver = driver;
     }

@@ -1,4 +1,4 @@
-package CheckBox;
+package checkBox;
 
 import Pages.CheckBoxesPage;
 import base.BaseTests;
@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
-public class TestCheckBoxTests extends BaseTests {
+public class CheckBoxTests extends BaseTests {
 
 
 

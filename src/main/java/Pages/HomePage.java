@@ -17,6 +17,10 @@ public class HomePage {
     private final By statusCodesLink = By.xpath("//*[contains(text(),'Status')]");
     private final By UploadLink = By.xpath("//*[contains(text(),'Upload')]");
     private final By dynamicLoadingLink = By.linkText("Dynamic Loading");
+    private final By jsAlertLink = By.linkText("JavaScript Alerts");
+    private final By entryAdLink = By.linkText("Entry Ad");
+    private final By WYSIWYGEditorLink = By.linkText("WYSIWYG Editor");
+    private final By dropDownLink = By.linkText("Dropdown");
 
 
 
@@ -54,5 +58,22 @@ public class HomePage {
     public DynamicLoadingPage clickOnDynamicLink(){
         clickOnLink(dynamicLoadingLink);
         return new DynamicLoadingPage(driver);
+    }
+
+    public JSAlertsPage clickOnJSAlertsPage(){
+        clickOnLink(jsAlertLink);
+        return new JSAlertsPage(driver);
+    }
+    public EntryAdPage clickOnEntryAdLink(){
+        clickOnLink(entryAdLink);
+        return new EntryAdPage(driver);
+    }
+    public WYSIWYGPage clickOnWYSIWYGLink(){
+        clickOnLink(WYSIWYGEditorLink);
+        return new WYSIWYGPage(driver);
+    }
+    public DropDownPage clickOnDropDownLink(){
+        clickOnLink(dropDownLink);
+        return new DropDownPage(driver);
     }
 }

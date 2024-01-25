@@ -1,4 +1,4 @@
-package ForgetPassword;
+package forgetPassword;
 
 import Pages.ForgetPasswordPage;
 import base.BaseTests;
@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertTrue;
 
-public class TestForgetPasswordTests extends BaseTests {
+public class ForgetPasswordTests extends BaseTests {
 
     @Test
     public void forgetPasswordValidation(){

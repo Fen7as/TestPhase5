@@ -20,6 +20,7 @@ public class OnePage {
 
 
     private final By startButton = By.cssSelector("#start > button");
+    private final By loadingSymbol = By.cssSelector(".example > #loading");
     private final By validationMessage = By.cssSelector("#finish > h4");
 
     public void clickOnStartButton (){

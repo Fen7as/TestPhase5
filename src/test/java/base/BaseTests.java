@@ -10,7 +10,7 @@ import org.testng.annotations.*;
 public class BaseTests {
 
     protected static WebDriver driver;
-    protected HomePage homePage;
+    protected static HomePage homePage;
 
 
 
@@ -35,7 +35,6 @@ public class BaseTests {
     @AfterTest
         public void Quit(){
         driver.quit();
-
     }
 
 }

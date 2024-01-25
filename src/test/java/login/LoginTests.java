@@ -1,4 +1,4 @@
-package Login;
+package login;
 
 import Pages.LoginPage;
 import Pages.SecureAreaPage;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class TestLoginTests extends BaseTests {
+public class LoginTests extends BaseTests {
 
 
     @AfterMethod

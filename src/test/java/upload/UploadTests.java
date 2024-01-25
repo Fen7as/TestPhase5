@@ -1,4 +1,4 @@
-package Upload;
+package upload;
 
 import Pages.UploadPage;
 import base.BaseTests;

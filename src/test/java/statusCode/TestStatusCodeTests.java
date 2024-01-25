@@ -1,4 +1,4 @@
-package StatusCode;
+package statusCode;
 
 import Pages.*;
 import base.BaseTests;

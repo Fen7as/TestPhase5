@@ -1,4 +1,4 @@
-package DynamicLoading;
+package dynamicLoading;
 
 import Pages.DynamicLoadingPage;
 import Pages.OnePage;
